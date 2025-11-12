@@ -57,7 +57,7 @@
     git log -v                              # verbose
 ```
 
-**Move your project head** to the exact state of that specific commit or branch, putting you in a **detached HEAD state**.
+**Move your project head** to the exact state of that specific commit (**detached HEAD state**) or branch.
 
 ```bash
     git checkout <commit-hash>              # head -> <commit-hash>
