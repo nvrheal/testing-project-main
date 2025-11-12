@@ -12,26 +12,26 @@
 
 # Git Commands
 
-Initializing a new Git repository in the current directory, allowing you to start tracking your project's files with Git.
+**Initializing a new Git repository** in the current directory, allowing you to start tracking your project's files with Git.
 
 ```bash
     git init
 ```
 
-Set the username and email used for commits in the current repository only.
+**Set the username and email** used for commits in the current repository only.
 
 ```bash
     git config user.name "Your Name"
     git config user.email "you@example.com"
 ```
 
-Display all Git configuration settings currently in effect.
+**Display all Git configuration** settings currently in effect.
 
 ```bash
     git config --list
 ```
 
-Stage changes (new, modified, or deleted files) to be included in the next commit.
+**Stage changes** (new, modified, or deleted files) to be included in the next commit.
 
 ```bash
     git add filename                    # stages a specific file.
@@ -39,26 +39,30 @@ Stage changes (new, modified, or deleted files) to be included in the next commi
     git add -A                          # stages all changes across the repository.
 ```
 
-Commit the staged changes as a new snapshot in the repository’s history.
+**Commit the staged changes** as a new snapshot in the repository’s history.
 
 ```bash
     git commit -m "message"
 ```
 
-Shows the current state of your working directory and staging area — it tells you which files are modified, staged, or untracked.
+**Shows the current state** of your working directory and staging area — it tells you which files are modified, staged, or untracked.
 
 ```bash
     git status
 ```
 
-Display the commit history of the repository.
+**Display the commit history** of the repository.
 
 ```bash
-    git log -v              # verbose
+    git log -v                              # verbose
 ```
 
-Move your project head to the exact state of that specific commit, putting you in a **detached HEAD state**.
+**Move your project head** to the exact state of that specific commit, putting you in a **detached HEAD state**.
 
 ```bash
-    git checkout <commit-hash> 
+    git checkout <commit-hash>              # head -> <commit-hash>
+    git checkout master                     # head -> master
 ```
+
+
+
