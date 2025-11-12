@@ -102,6 +102,7 @@
 ```bash
     git push -u origin main                 # Push main branch
     git push -u origin dev                  # Push dev branch
+    git push --all origin                   # Push all local branches to the remote repository
 ```
 
 **Fetche and Merge any new changes** on remote branch from the remote repository.
