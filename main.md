@@ -100,7 +100,8 @@
 **Upload the main branch in the local repository to the remote repository** and sets it as the default branch for future pushes and pulls.
 
 ```bash
-    git push -u origin main
+    git push -u origin main                 # Push main branch
+    git push -u origin dev                  # Push dev branch
 ```
 
 **Fetche and Merge any new changes** on remote branch from the remote repository.
