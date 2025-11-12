@@ -97,3 +97,15 @@
     git remote -v
 ```
 
+**Upload the main branch in the local repository to the remote repository** and sets it as the default branch for future pushes and pulls.
+
+```bash
+    git push -u origin main
+```
+
+**Fetche and Merge any new changes** on remote branch from the remote repository.
+
+```bash
+    git pull                            # Pull from remote repo the branch you are currently on
+    git pull origin main                # Pull explicitly the origin branch in the remote repository to the main branch in local repository
+```
