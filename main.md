@@ -14,6 +14,8 @@
 
 **Pull Request** is a rquest to ask the project owner to merge your changes on one branch or fork into his original repository’s branch.
 
+**GitHub collaborators** are people who are given permission to access and contribute directly to a repository.
+
 # Git Commands
 
 **Initializing a new Git repository** in the current directory, allowing you to start tracking your project's files with Git.
@@ -47,6 +49,12 @@
 
 ```bash
     git commit -m "message"
+```
+
+**Remove the last commit** but keeps all its changes staged for recommitting.
+
+```bash
+    git reset --soft HEAD~1
 ```
 
 **Shows the current state** of your working directory and staging area — it tells you which files are modified, staged, or untracked.
